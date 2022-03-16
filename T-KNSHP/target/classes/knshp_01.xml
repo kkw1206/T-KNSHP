@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <!-- Server configuration -->
+    <entry key="SERVER_MODE">KNSHP-01</entry>
+    <entry key="SERVER_ID">KNSHP-01</entry>
+    <entry key="SERVER_LISTEN_PORT">35100</entry>
+    <entry key="ENCODING">UTF-8</entry>
+
+    <entry key="KNS_HEADER_TEMPLATE_NAME">com.kovan.app.util.headertemplate.KnsHeaderTemplate</entry>
+
+    <entry key="KNSAS_CONNECT_TIMEOUT">3000</entry>
+    <entry key="KNSAS_RECV_TIMEOUT">8000</entry>
+
+    <entry key="KNSAS_FT_LOAD_BALANCER_CONFIG">conf\lbconfig_knsas_ft.properties</entry>
+
+    <entry key="SERVER_TCP_CMD_REQ_XML">format\SERVER\SERVER_TCP_CMD_REQ.xml</entry>
+    <entry key="SERVER_TCP_CMD_RES_XML">format\SERVER\SERVER_TCP_CMD_RES.xml</entry>
+</properties>
