@@ -1,5 +1,5 @@
 package com.kovan.app.api;
-
+//git test
 import com.kovan.app.define.DefineCode;
 import com.kovan.app.model.KnsBodyInfo;
 import com.kovan.app.server.hp.HpPacketInfo;
